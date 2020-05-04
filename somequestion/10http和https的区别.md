@@ -4,6 +4,10 @@ https://blog.csdn.net/qq_38289815/article/details/80969419
 
 https://blog.csdn.net/xiaoming100001/article/details/81109617?depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1&utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-1
 
+http是超文本传输协议，信息是明文传输，
+
+https 则是具有安全性的ssl加密传输协议。
+
 **http**：超文本传输协议，是以明文方式发送信息的。如果黑客截取了web浏览器和服务器之间的传输报文，就可以直接获得其中的信息。
 
 **原理：**
@@ -48,19 +52,11 @@ https://blog.csdn.net/xiaoming100001/article/details/81109617?depth_1-utm_source
 
 3、http和https使用的是完全不同的连接方式，用的端口也不一样，前者是80，后者是443。
 
-4、http的连接很简单，是无状态的。Https协议是由SSL+Http协议构建的可进行加密传输、身份认证的网络协议，比http协议安全。(无状态的意思是其数据包的发送、传输和接收都是相互独立的。无连接的意思是指通信双方都不长久的维持对方的任何信息。)
+4、http的连接很简单，是无状态的。Https协议是由SSL+Http协议构建的可进行加密传输、身份认证的网络协议，比http协议安全。
 
+**(无状态的意思是其数据包的发送、传输和接收都是相互独立的。**
 
-
-
-
-
-
-
-
-
-
-
+**无连接的意思是指通信双方都不长久的维持对方的任何信息。)**
 
 
 
